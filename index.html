@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+          <a href="#home">BRAND</a>
+        </h1>
+  
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#grid-one">First grid</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#grid-two">Second grid</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+  
+    <div class="menu-spacing"></div>
+  
+    <section id="home" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content" >
+          <h2>Visual design in web dev</h2>
+          <p>Front-end development involves creating the user interface of a website or application. It focuses on designing and coding the elements that users directly interact with, such as buttons, forms, and layouts. Front-end developers use languages like HTML, CSS, and JavaScript to bring the design to life and ensure a smooth and engaging user experience. Their work plays a vital role in making websites visually appealing and user-friendly.</p>
+        </div>
+        <div class="intro-img">
+          <img src="assets/imgs/picture1.svg" alt="Logo de HTML, CSS e JS.">
+        </div>
+      </div>
+    </section>
+  
+    <section id="intro" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>news coverage and some
+          surprises</h2>
+          <p>Front-end development constitutes a pivotal aspect of modern software and web development, encompassing the visual and interactive components that users directly engage with. This facet deals with translating design concepts into functional user interfaces by employing a combination of technologies. HTML forms the foundation, providing the structure and content of web pages. CSS steps in to enhance the presentation, enabling developers to style elements, position them, and create engaging layouts. The dynamic aspect is orchestrated by JavaScript, empowering developers to implement interactive features like animations, form validation, and real-time updates.</p>
+
+          <p>In the realm of user experience, the role of front-end development cannot be overstated. When users visit a website or use an application, their first impressions are largely shaped by the front-end design. Smooth navigation, intuitive menus, and visually appealing aesthetics contribute to positive interactions. A well-executed front-end ensures responsiveness, meaning the interface adapts seamlessly to various screen sizes, be it on a desktop, tablet, or smartphone. This adaptability enhances accessibility and caters to an increasingly diverse range of devices and usage scenarios.</p>
+          
+          <p>Collaboration lies at the core of effective front-end development. Front-end developers closely collaborate with designers to bring artistic visions to fruition while considering the technical constraints and possibilities. Moreover, seamless integration with back-end systems is essential for dynamic applications. Through APIs, front-end and back-end components communicate, enabling functionalities like user authentication, data retrieval, and transaction processing. In essence, front-end development encapsulates the intersection of design, technology, and user-centric thinking to create digital experiences that captivate, inform, and delight users across the digital landscape.</p>
+      </div>
+    </section>
+  
+  
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">My grid one</h2>
+        <p class="grid-description">A simple description.</p>
+  
+        <div class="grid">
+          <article>
+            <h3>HTML</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+              nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+              provident maiores.</p>
+          </article>
+          <article>
+            <h3>CSS</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+              nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+              provident maiores.</p>
+          </article>
+          <article>
+            <h3>JavaScript</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+              nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+              provident maiores.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <p class="grid-description">Uma breve descrição.</p>
+  
+        <div class="grid">
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash" />
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash" />
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash" />
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash" />
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash" />
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash" />
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+  
+    <section id="grid-two" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">My grid two</h2>
+        <p class="grid-description">A simple description.</p>
+  
+        <div class="grid">
+          <article>
+            <h3>Teste 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+              nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+              provident maiores.</p>
+          </article>
+          <article>
+            <h3>Teste 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+              nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+              provident maiores.</p>
+          </article>
+          <article>
+            <h3>Teste 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+              nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+              provident maiores.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  
+    <section id="pricing" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>Pricing</h2>
+        <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some
+          surprises at the machine’s performance. This post details some background information on the experience of
+          porting Firefox to run natively on these CPUs.</p>
+        <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to
+          know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+  
+        <div class="responsive-table">
+          <table>
+            <caption>Pricing table</caption>
+  
+            <thead>
+              <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+                <th>Title 4</th>
+                <th>Title 5</th>
+              </tr>
+            </thead>
+  
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+                <td>Content 3</td>
+              </tr>
+            </tbody>
+  
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Testando</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+  
+    <section id="contact" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>January brings us Firefox 85</h2>
+          <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you
+            support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash
+            support from Firefox.</p>
+        </div>
+        <div class="intro-img">
+          <img src="assets/imgs/picture1.svg" alt="Logo de HTML, CSS e JS.">
+        </div>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Contact me</legend>
+  
+            <div class="form-group">
+              <label for="first-name">First name</label>
+              <input type="text" name="first-name" id="first-name" placeholder="Your name">
+            </div>
+  
+            <div class="form-group">
+              <label for="last-name">last name</label>
+              <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+            </div>
+  
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" placeholder="Your e-mail">
+            </div>
+  
+            <div class="form-group full-width">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+            </div>
+  
+            <div class="form-group full-width">
+              <button type="submit" id="send">Send message</button>
+            </div>
+          </fieldset>
+        </div>  
+      </div>
+    </section>
+  
+  
+    <footer id="footer" class="footer white-bg">
+      <p><a rel="nofollow" target="_blank" href="https://github.com/theusinhoiost">Feito por <strong>Matheus Iost</strong><span>👻</span> </a></p>
+    </footer>
+  
+    <a class="back-to-top" href="#">➤</a>
+    <script src="assets/js/index.js">
+        
+    </script>
+</body>
+</html>
